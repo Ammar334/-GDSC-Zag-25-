@@ -23,6 +23,8 @@ body {
 }
 
 .recipe-image {
+    padding: 20px;
+    border-width: 0px;
     width: 100%;
     height: auto;
 }
@@ -43,7 +45,10 @@ body {
     margin-bottom: 20px;
 }
 
-.prep-time, .ingredients, .instructions, .nutrition {
+.prep-time,
+.ingredients,
+.instructions,
+.nutrition {
     margin-bottom: 20px;
 }
 
@@ -56,11 +61,13 @@ h2 {
     padding-bottom: 4px;
 }
 
-ul, ol {
+ul,
+ol {
     margin-left: 20px;
 }
 
-ul li, ol li {
+ul li,
+ol li {
     font-size: 14px;
     color: #333;
     margin-bottom: 5px;
@@ -72,7 +79,8 @@ table {
     border-collapse: collapse;
 }
 
-table th, table td {
+table th,
+table td {
     text-align: left;
     padding: 8px;
     font-size: 14px;
